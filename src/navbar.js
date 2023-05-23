@@ -14,6 +14,11 @@ export default function Navbar(){
             <li><Link to="/Service">Service</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
         </ul>
+        <div class="hamburger">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+        </div>
         </div>
     )
 }

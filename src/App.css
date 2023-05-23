@@ -37,6 +37,19 @@ h1{
   color: white;
   transition: all 0.2s ease-in-out ;
 }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  color: black;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
 
 .footer {
   padding: 2rem 6rem;
@@ -92,7 +105,7 @@ h2{
   top: 51%;
   bottom: 100%;
   left: 35%;
-  color: black;
+  color: whitesmoke;
   font-size: 90px;
 }
 img{
@@ -124,6 +137,12 @@ img{
   object-fit: cover;
   margin-left: 50px;
   box-shadow: 2px 10px 10px 5px black;
+  
+}
+.image-container :hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  
 }
 .container{
   display: flex;
@@ -166,16 +185,16 @@ p{
   text-align: center;
 }
 .carousel .slide {
-  background-color: #f0f0f0; /* Example background color */
+  background-color: #f0f0f0; 
 }
 
 .carousel .slide img {
-  max-height: 800px; /* Adjust the maximum height as needed */
+  max-height: 800px; 
 }
 
 .legend {
   color: #fff; /* Example text color */
-  background-color: transparent 0 white;
+  background-color: transparent 0 black;
   padding: 10px;
   font-size: 18px;
 }
@@ -189,7 +208,7 @@ form {
   flex-direction: column;
   max-width: 430px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 111px;
 }
 
 label {
@@ -199,7 +218,7 @@ label {
 
 input,
 textarea {
-  padding: 40px 140px;
+  padding: 10px 140px;
   margin-top: 9px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -232,6 +251,13 @@ button:hover {
 }
 .bottom div {
   width: 50%;
+}
+.nav ul {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
 }
 
 }

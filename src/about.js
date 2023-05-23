@@ -32,27 +32,27 @@ Every year for our World's Best Awards survey, T+L asks readers to weigh in on t
             <Carousel>
       <div>
         <img src={Slider1} alt="Slider 1" />
-        <p className="legend">Slider 1</p>
+        <p className="legend">Effil Tower</p>
       </div>
       <div>
         <img src={Slider2} alt="Slider 2" />
-        <p className="legend">Slider 2</p>
+        <p className="legend">Great Wall Of China </p>
       </div>
       <div>
         <img src={Slider3} alt="Slider 3" />
-        <p className="legend">Slider 3</p>
+        <p className="legend">Charminar</p>
       </div>
       <div>
         <img src={Slider4} alt="Slider 4" />
-        <p className="legend">Slider 3</p>
+        <p className="legend">Egypt</p>
       </div>
       <div>
         <img src={Slider5} alt="Slider 5" />
-        <p className="legend">Slider 3</p>
+        <p className="legend">Las Vegas</p>
       </div>
       <div>
         <img src={Slider6} alt="Slider 6" />
-        <p className="legend">Slider 3</p>
+        <p className="legend">Twin Towers</p>
       </div>
       
     </Carousel>
